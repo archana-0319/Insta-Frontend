@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.post_form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 3%;
+    
+  }
+  
+  .file_input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  /* .fileInput{
+    width: 70%;
+    margin-right: 10px;
+  } */
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .labelbtn{
+  width: 65px;
+  height: 34px;
+  background-color: #4caf50;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+ 

@@ -1,0 +1,42 @@
+ nav{
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom:2px solid #006238;
+    opacity: 1;
+}
+
+nav .logo_bar{
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+}
+nav .logo_bar h3{
+    font-size: 64px;
+    color: #006238;
+    margin: 0px;
+    font-weight: normal;
+   
+}
+nav .logo_bar .left{
+    width: 70px;
+    height: 70px;
+    /* margin-left: 150px; */
+}
+nav .logo_bar .left img{
+    width: 64px;
+    height: 64px;
+}
+/* nav .right{
+    margin-right: 250px;
+} */
+nav .right img{
+    width: 48px;
+    height: 48px;
+    margin-left: 300px;
+} 
+
+
+
